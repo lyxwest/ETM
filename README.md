@@ -1,1 +1,1 @@
-This is the official implementation of our paper.
+This is our anonymous repository for IJCAI2024.
