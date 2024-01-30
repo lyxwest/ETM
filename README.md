@@ -11,11 +11,28 @@ pip install git+https://github.com/openai/CLIP.git
 
 
 ## Data Preparation
-To train all of our models, we extract videos into frames for fast reading. Please refer to [MVFNet](https://github.com/whwu95/MVFNet/blob/main/data_process/DATASETS.md) repo for the detaied guide of data processing.
+To train all of our models, we extract videos into frames for fast reading. Please refer to [MVFNet](https://github.com/whwu95/MVFNet/blob/main/data_process/DATASETS.md) repo for the detailed guide of data processing.
 
 
 ## Model Zoo
 Coming Soon
+
+Input = #frame x #temporal clip x # spatial crop x size
+#### Kinetics-400
+| Architecture |#Input |  Top-1 Acc.(%) | checkpoint | log| config|
+|:------------:|:-------------------:|:------------------:|:-----------------:|:--------------:|:--------------:|
+| ViT-B/16 | 8x1x1x224x224 | 82.0 | - | - | - |
+| ViT-B/16 | 8x3x1x224x224 | 82.5 | - | - | - |
+| ViT-L/14 | 8x1x1x224x224 | 85.5 | - | - | - |
+| ViT-L/14 | 8x3x1x224x224 | 86.1 | - | - | - |
+
+#### HMDB-51
+| Architecture | Task | #Input |  Top-1 Acc.(%) | checkpoint | log| config|
+|:------------:|:------------:|:-------------------:|:------------------:|:-----------------:|:--------------:|:--------------:|
+| ViT-B/16 | All | 8x1x1x224x224 | 74.6 | - | - | - |
+| ViT-B/16 | 2-shot | 8x1x1x224x224 | 62.7 | - | - | - |
+| ViT-B/16 | zero-shot | 8x1x1x224x224 | 45.8 | - | - | - |
+
 
 
 ## Training
