@@ -1,4 +1,4 @@
-This is our anonymous repository for IJCAI2024.
+This is our anonymous repository for PRCV2024.
 
 ## Environment Preparation
 
