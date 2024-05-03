@@ -22,9 +22,9 @@ Input = #frame x #temporal clip x # spatial crop x size
 | Architecture |#Input |  Top-1 Acc.(%) | checkpoint | log| config|
 |:------------:|:-------------------:|:------------------:|:-----------------:|:--------------:|:--------------:|
 | ViT-B/16 | 8x1x1x224x224 | 82.0 | - | - | - |
-| ViT-B/16 | 8x3x1x224x224 | 82.5 | - | - | - |
-| ViT-L/14 | 8x1x1x224x224 | 85.5 | - | - | - |
-| ViT-L/14 | 8x3x1x224x224 | 86.1 | - | - | - |
+| ViT-B/16 | 8x3x1x224x224 | 82.6 | - | - | - |
+| ViT-L/14 | 8x1x1x224x224 | 85.8 | - | - | - |
+| ViT-L/14 | 8x3x1x224x224 | 86.6 | - | - | - |
 
 #### HMDB-51
 | Architecture | Task | #Input |  Top-1 Acc.(%) | checkpoint | log| config|
